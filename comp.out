@@ -1,0 +1,5 @@
+
+Cells have no pins;  pin matching not needed.
+Device classes ./xschem/src/Hw2amplvs.spice and ./mag/Hw2amplvsdiff.spice are equivalent.
+
+Final result: Verify:  cell ./mag/Hw2amplvsdiff.spice has no elements and/or nodes.  Not checked.

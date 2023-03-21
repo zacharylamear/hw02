@@ -1,0 +1,33 @@
+* NGSPICE file created from Hw2amptry2.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_LJPZDL a_15_n414# w_n109_n514# a_n73_n414# a_n33_n511#
+X0 a_15_n414# a_n33_n511# a_n73_n414# w_n109_n514# sky130_fd_pr__pfet_01v8 ad=1.305e+12p pd=9.58e+06u as=1.305e+12p ps=9.58e+06u w=4.5e+06u l=150000u
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_4WPVHQ a_n73_n69# a_n33_n157# a_15_n69# VSUBS
+X0 a_15_n69# a_n33_n157# a_n73_n69# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_FN4ZCM a_15_n419# a_n33_n507# a_n73_n419# VSUBS
+X0 a_15_n419# a_n33_n507# a_n73_n419# VSUBS sky130_fd_pr__nfet_01v8 ad=1.305e+12p pd=9.58e+06u as=1.305e+12p ps=9.58e+06u w=4.5e+06u l=150000u
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_27MD4L a_n33_n2611# w_n109_n2614# a_n73_n2514# a_15_n2514#
+X0 a_15_n2514# a_n33_n2611# a_n73_n2514# w_n109_n2614# sky130_fd_pr__pfet_01v8 ad=7.395e+12p pd=5.158e+07u as=7.395e+12p ps=5.158e+07u w=2.55e+07u l=150000u
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_AT4ZK9 a_n73_n269# a_15_n269# a_n33_n357# VSUBS
+X0 a_15_n269# a_n33_n357# a_n73_n269# VSUBS sky130_fd_pr__nfet_01v8 ad=8.7e+11p pd=6.58e+06u as=8.7e+11p ps=6.58e+06u w=3e+06u l=150000u
+.ends
+
+.subckt Hw2amptry2 in_p VDD diff_out in_n VSS
+Xsky130_fd_pr__pfet_01v8_LJPZDL_0 VDD VDD m1_490_934# m1_490_934# sky130_fd_pr__pfet_01v8_LJPZDL
+XXM1 m1_698_390# VDD VSS VSS sky130_fd_pr__nfet_01v8_4WPVHQ
+XXM2 m1_1234_618# VDD VDD m1_490_934# sky130_fd_pr__pfet_01v8_LJPZDL
+XXM4 m1_1234_618# in_n m1_698_390# VSS sky130_fd_pr__nfet_01v8_FN4ZCM
+Xsky130_fd_pr__nfet_01v8_4WPVHQ_0 VSS VDD VDD VSS sky130_fd_pr__nfet_01v8_4WPVHQ
+XXM7 m1_1234_618# VDD VDD diff_out sky130_fd_pr__pfet_01v8_27MD4L
+XXM8 VSS diff_out VDD VSS sky130_fd_pr__nfet_01v8_AT4ZK9
+Xsky130_fd_pr__nfet_01v8_FN4ZCM_0 m1_698_390# in_p m1_490_934# VSS sky130_fd_pr__nfet_01v8_FN4ZCM
+.ends
+
