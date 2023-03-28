@@ -1,5 +1,13 @@
 
-Cells have no pins;  pin matching not needed.
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Equate elements:  no current cell.
 Device classes ./xschem/src/Hw2amplvs.spice and ./mag/Hw2amplvsdiff.spice are equivalent.
 
-Final result: Verify:  cell ./mag/Hw2amplvsdiff.spice has no elements and/or nodes.  Not checked.
+Final result: Top level cell failed pin matching.
