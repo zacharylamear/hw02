@@ -1,0 +1,290 @@
+
+Cell sky130_fd_pr__pfet_01v8 (0) disconnected node: drain
+Cell sky130_fd_pr__pfet_01v8 (0) disconnected node: gate
+Cell sky130_fd_pr__pfet_01v8 (0) disconnected node: source
+Cell sky130_fd_pr__pfet_01v8 (0) disconnected node: bulk
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8                                                |Circuit 2: sky130_fd_pr__pfet_01v8                                                
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+(no matching pin)                                                                 |1                                                                                 
+(no matching pin)                                                                 |2                                                                                 
+(no matching pin)                                                                 |3                                                                                 
+(no matching pin)                                                                 |4                                                                                 
+drain                                                                             |(no matching pin)                                                                 
+gate                                                                              |(no matching pin)                                                                 
+source                                                                            |(no matching pin)                                                                 
+bulk                                                                              |(no matching pin)                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Cell sky130_fd_pr__nfet_01v8 (0) disconnected node: drain
+Cell sky130_fd_pr__nfet_01v8 (0) disconnected node: gate
+Cell sky130_fd_pr__nfet_01v8 (0) disconnected node: source
+Cell sky130_fd_pr__nfet_01v8 (0) disconnected node: bulk
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8                                                |Circuit 2: sky130_fd_pr__nfet_01v8                                                
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+(no matching pin)                                                                 |1                                                                                 
+(no matching pin)                                                                 |2                                                                                 
+(no matching pin)                                                                 |3                                                                                 
+(no matching pin)                                                                 |4                                                                                 
+drain                                                                             |(no matching pin)                                                                 
+gate                                                                              |(no matching pin)                                                                 
+source                                                                            |(no matching pin)                                                                 
+bulk                                                                              |(no matching pin)                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_LJPZDL in circuit Hw2amptry2 (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_4WPVHQ in circuit Hw2amptry2 (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_FN4ZCM in circuit Hw2amptry2 (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_27MD4L in circuit Hw2amptry2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_AT4ZK9 in circuit Hw2amptry2 (1)(1 instance)
+
+Subcircuit summary:
+Circuit 1: Hw2amptry2                                                             |Circuit 2: Hw2amptry2                                                             
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+sky130_fd_pr__nfet_01v8 (5)                                                       |sky130_fd_pr__nfet_01v8 (5)                                                       
+sky130_fd_pr__pfet_01v8 (3)                                                       |sky130_fd_pr__pfet_01v8 (3)                                                       
+Number of devices: 8                                                              |Number of devices: 8                                                              
+Number of nets: 40                                                                |Number of nets: 40                                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: Hw2amptry2                                                             |Circuit 2: Hw2amptry2                                                             
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Net: (no pins)                                                                    |Net: diff_out                                                                     
+  sky130_fd_pr__pfet_01v8/(drain|source) = 1                                      |  sky130_fd_pr__pfet_01v8/(1|3) = 1                                               
+  sky130_fd_pr__nfet_01v8/(drain|source) = 1                                      |  sky130_fd_pr__nfet_01v8/(1|3) = 1                                               
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Net: dummy_40                                                                     |Net: sky130_fd_pr__nfet_01v8_AT4ZK9:XM8/dummy_8                                   
+  sky130_fd_pr__nfet_01v8/proxy4 = 1                                              |  sky130_fd_pr__nfet_01v8/proxybulk = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_39                                                                     |Net: sky130_fd_pr__nfet_01v8_AT4ZK9:XM8/dummy_7                                   
+  sky130_fd_pr__nfet_01v8/proxy3 = 1                                              |  sky130_fd_pr__nfet_01v8/proxysource = 1                                         
+                                                                                  |                                                                                  
+Net: dummy_38                                                                     |Net: sky130_fd_pr__nfet_01v8_AT4ZK9:XM8/dummy_6                                   
+  sky130_fd_pr__nfet_01v8/proxy2 = 1                                              |  sky130_fd_pr__nfet_01v8/proxygate = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_37                                                                     |Net: sky130_fd_pr__nfet_01v8_AT4ZK9:XM8/dummy_5                                   
+  sky130_fd_pr__nfet_01v8/proxy1 = 1                                              |  sky130_fd_pr__nfet_01v8/proxydrain = 1                                          
+                                                                                  |                                                                                  
+Net: dummy_36                                                                     |Net: sky130_fd_pr__pfet_01v8_27MD4L:XM7/dummy_8                                   
+  sky130_fd_pr__nfet_01v8/proxy4 = 1                                              |  sky130_fd_pr__pfet_01v8/proxybulk = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_35                                                                     |Net: sky130_fd_pr__pfet_01v8_27MD4L:XM7/dummy_7                                   
+  sky130_fd_pr__nfet_01v8/proxy3 = 1                                              |  sky130_fd_pr__pfet_01v8/proxysource = 1                                         
+                                                                                  |                                                                                  
+Net: dummy_34                                                                     |Net: sky130_fd_pr__pfet_01v8_27MD4L:XM7/dummy_6                                   
+  sky130_fd_pr__nfet_01v8/proxy2 = 1                                              |  sky130_fd_pr__pfet_01v8/proxygate = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_33                                                                     |Net: sky130_fd_pr__pfet_01v8_27MD4L:XM7/dummy_5                                   
+  sky130_fd_pr__nfet_01v8/proxy1 = 1                                              |  sky130_fd_pr__pfet_01v8/proxydrain = 1                                          
+                                                                                  |                                                                                  
+Net: dummy_32                                                                     |Net: /sky130_fd_pr__nfet_01v8_FN4ZCM_0/dummy_8                                    
+  sky130_fd_pr__nfet_01v8/proxy4 = 1                                              |  sky130_fd_pr__nfet_01v8/proxybulk = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_31                                                                     |Net: /sky130_fd_pr__nfet_01v8_FN4ZCM_0/dummy_7                                    
+  sky130_fd_pr__nfet_01v8/proxy3 = 1                                              |  sky130_fd_pr__nfet_01v8/proxysource = 1                                         
+                                                                                  |                                                                                  
+Net: dummy_30                                                                     |Net: /sky130_fd_pr__nfet_01v8_FN4ZCM_0/dummy_6                                    
+  sky130_fd_pr__nfet_01v8/proxy2 = 1                                              |  sky130_fd_pr__nfet_01v8/proxygate = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_29                                                                     |Net: /sky130_fd_pr__nfet_01v8_FN4ZCM_0/dummy_5                                    
+  sky130_fd_pr__nfet_01v8/proxy1 = 1                                              |  sky130_fd_pr__nfet_01v8/proxydrain = 1                                          
+                                                                                  |                                                                                  
+Net: dummy_28                                                                     |Net: sky130_fd_pr__nfet_01v8_FN4ZCM:XM4/dummy_8                                   
+  sky130_fd_pr__nfet_01v8/proxy4 = 1                                              |  sky130_fd_pr__nfet_01v8/proxybulk = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_27                                                                     |Net: sky130_fd_pr__nfet_01v8_FN4ZCM:XM4/dummy_7                                   
+  sky130_fd_pr__nfet_01v8/proxy3 = 1                                              |  sky130_fd_pr__nfet_01v8/proxysource = 1                                         
+                                                                                  |                                                                                  
+Net: dummy_26                                                                     |Net: sky130_fd_pr__nfet_01v8_FN4ZCM:XM4/dummy_6                                   
+  sky130_fd_pr__nfet_01v8/proxy2 = 1                                              |  sky130_fd_pr__nfet_01v8/proxygate = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_25                                                                     |Net: sky130_fd_pr__nfet_01v8_FN4ZCM:XM4/dummy_5                                   
+  sky130_fd_pr__nfet_01v8/proxy1 = 1                                              |  sky130_fd_pr__nfet_01v8/proxydrain = 1                                          
+                                                                                  |                                                                                  
+Net: dummy_24                                                                     |Net: /sky130_fd_pr__nfet_01v8_4WPVHQ_0/dummy_8                                    
+  sky130_fd_pr__nfet_01v8/proxy4 = 1                                              |  sky130_fd_pr__nfet_01v8/proxybulk = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_23                                                                     |Net: /sky130_fd_pr__nfet_01v8_4WPVHQ_0/dummy_7                                    
+  sky130_fd_pr__nfet_01v8/proxy3 = 1                                              |  sky130_fd_pr__nfet_01v8/proxysource = 1                                         
+                                                                                  |                                                                                  
+Net: dummy_22                                                                     |Net: /sky130_fd_pr__nfet_01v8_4WPVHQ_0/dummy_6                                    
+  sky130_fd_pr__nfet_01v8/proxy2 = 1                                              |  sky130_fd_pr__nfet_01v8/proxygate = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_21                                                                     |Net: /sky130_fd_pr__nfet_01v8_4WPVHQ_0/dummy_5                                    
+  sky130_fd_pr__nfet_01v8/proxy1 = 1                                              |  sky130_fd_pr__nfet_01v8/proxydrain = 1                                          
+                                                                                  |                                                                                  
+Net: dummy_20                                                                     |Net: sky130_fd_pr__nfet_01v8_4WPVHQ:XM1/dummy_8                                   
+  sky130_fd_pr__pfet_01v8/proxy4 = 1                                              |  sky130_fd_pr__nfet_01v8/proxybulk = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_19                                                                     |Net: sky130_fd_pr__nfet_01v8_4WPVHQ:XM1/dummy_7                                   
+  sky130_fd_pr__pfet_01v8/proxy3 = 1                                              |  sky130_fd_pr__nfet_01v8/proxysource = 1                                         
+                                                                                  |                                                                                  
+Net: dummy_18                                                                     |Net: sky130_fd_pr__nfet_01v8_4WPVHQ:XM1/dummy_6                                   
+  sky130_fd_pr__pfet_01v8/proxy2 = 1                                              |  sky130_fd_pr__nfet_01v8/proxygate = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_17                                                                     |Net: sky130_fd_pr__nfet_01v8_4WPVHQ:XM1/dummy_5                                   
+  sky130_fd_pr__pfet_01v8/proxy1 = 1                                              |  sky130_fd_pr__nfet_01v8/proxydrain = 1                                          
+                                                                                  |                                                                                  
+Net: dummy_16                                                                     |Net: sky130_fd_pr__pfet_01v8_LJPZDL:XM2/dummy_8                                   
+  sky130_fd_pr__pfet_01v8/proxy4 = 1                                              |  sky130_fd_pr__pfet_01v8/proxybulk = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_15                                                                     |Net: sky130_fd_pr__pfet_01v8_LJPZDL:XM2/dummy_7                                   
+  sky130_fd_pr__pfet_01v8/proxy3 = 1                                              |  sky130_fd_pr__pfet_01v8/proxysource = 1                                         
+                                                                                  |                                                                                  
+Net: dummy_14                                                                     |Net: sky130_fd_pr__pfet_01v8_LJPZDL:XM2/dummy_6                                   
+  sky130_fd_pr__pfet_01v8/proxy2 = 1                                              |  sky130_fd_pr__pfet_01v8/proxygate = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_13                                                                     |Net: sky130_fd_pr__pfet_01v8_LJPZDL:XM2/dummy_5                                   
+  sky130_fd_pr__pfet_01v8/proxy1 = 1                                              |  sky130_fd_pr__pfet_01v8/proxydrain = 1                                          
+                                                                                  |                                                                                  
+Net: dummy_12                                                                     |Net: /sky130_fd_pr__pfet_01v8_LJPZDL_0/dummy_8                                    
+  sky130_fd_pr__pfet_01v8/proxy4 = 1                                              |  sky130_fd_pr__pfet_01v8/proxybulk = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_11                                                                     |Net: /sky130_fd_pr__pfet_01v8_LJPZDL_0/dummy_7                                    
+  sky130_fd_pr__pfet_01v8/proxy3 = 1                                              |  sky130_fd_pr__pfet_01v8/proxysource = 1                                         
+                                                                                  |                                                                                  
+Net: dummy_10                                                                     |Net: /sky130_fd_pr__pfet_01v8_LJPZDL_0/dummy_6                                    
+  sky130_fd_pr__pfet_01v8/proxy2 = 1                                              |  sky130_fd_pr__pfet_01v8/proxygate = 1                                           
+                                                                                  |                                                                                  
+Net: dummy_9                                                                      |Net: /sky130_fd_pr__pfet_01v8_LJPZDL_0/dummy_5                                    
+  sky130_fd_pr__pfet_01v8/proxy1 = 1                                              |  sky130_fd_pr__pfet_01v8/proxydrain = 1                                          
+                                                                                  |                                                                                  
+Net: in_p                                                                         |Net: in_p                                                                         
+  sky130_fd_pr__nfet_01v8/gate = 1                                                |  sky130_fd_pr__nfet_01v8/2 = 1                                                   
+                                                                                  |                                                                                  
+Net: in_n                                                                         |Net: in_n                                                                         
+  sky130_fd_pr__nfet_01v8/gate = 1                                                |  sky130_fd_pr__nfet_01v8/2 = 1                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Net: net1                                                                         |Net: m1_490_934#                                                                  
+  sky130_fd_pr__pfet_01v8/gate = 2                                                |  sky130_fd_pr__pfet_01v8/2 = 2                                                   
+  sky130_fd_pr__pfet_01v8/(drain|source) = 1                                      |  sky130_fd_pr__pfet_01v8/(1|3) = 1                                               
+  sky130_fd_pr__nfet_01v8/(drain|source) = 1                                      |  sky130_fd_pr__nfet_01v8/(1|3) = 1                                               
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Net: VSS                                                                          |Net: VSS                                                                          
+  sky130_fd_pr__nfet_01v8/(drain|source) = 3                                      |  sky130_fd_pr__nfet_01v8/(1|3) = 3                                               
+  sky130_fd_pr__nfet_01v8/bulk = 5                                                |  sky130_fd_pr__nfet_01v8/4 = 5                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Net: VDD                                                                          |Net: VDD                                                                          
+  sky130_fd_pr__nfet_01v8/gate = 3                                                |  sky130_fd_pr__pfet_01v8/(1|3) = 3                                               
+  sky130_fd_pr__pfet_01v8/(drain|source) = 3                                      |  sky130_fd_pr__pfet_01v8/4 = 3                                                   
+  sky130_fd_pr__pfet_01v8/bulk = 3                                                |  sky130_fd_pr__nfet_01v8/2 = 3                                                   
+  sky130_fd_pr__nfet_01v8/(drain|source) = 1                                      |  sky130_fd_pr__nfet_01v8/(1|3) = 1                                               
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Net: net2                                                                         |Net: m1_1234_618#                                                                 
+  sky130_fd_pr__pfet_01v8/(drain|source) = 1                                      |  sky130_fd_pr__pfet_01v8/(1|3) = 1                                               
+  sky130_fd_pr__nfet_01v8/(drain|source) = 1                                      |  sky130_fd_pr__nfet_01v8/(1|3) = 1                                               
+  sky130_fd_pr__pfet_01v8/gate = 1                                                |  sky130_fd_pr__pfet_01v8/2 = 1                                                   
+                                                                                  |                                                                                  
+Net: net3                                                                         |Net: m1_698_390#                                                                  
+  sky130_fd_pr__nfet_01v8/(drain|source) = 3                                      |  sky130_fd_pr__nfet_01v8/(1|3) = 3                                               
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: Hw2amptry2                                                             |Circuit 2: Hw2amptry2                                                             
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Instance: sky130_fd_pr__pfet_01v8:7                                               |Instance: sky130_fd_pr__pfet_01v8_27MD4L:XM7/sky130_fd_pr__pfet_01v8:0            
+  (drain,source) = (10,2)                                                         |  proxydrain = 1                                                                  
+  gate = 3                                                                        |  proxygate = 1                                                                   
+  bulk = 10                                                                       |  proxysource = 1                                                                 
+  proxy1 = 1                                                                      |  proxybulk = 1                                                                   
+  proxy2 = 1                                                                      |  (1,3) = (10,2)                                                                  
+  proxy3 = 1                                                                      |  2 = 3                                                                           
+  proxy4 = 1                                                                      |  4 = 10                                                                          
+                                                                                  |                                                                                  
+Instance: sky130_fd_pr__pfet_01v8:3                                               |Instance: sky130_fd_pr__pfet_01v8_LJPZDL:XM2/sky130_fd_pr__pfet_01v8:0            
+  (drain,source) = (10,4)                                                         |  proxydrain = 1                                                                  
+  gate = 4                                                                        |  proxygate = 1                                                                   
+  bulk = 10                                                                       |  proxysource = 1                                                                 
+  proxy1 = 1                                                                      |  proxybulk = 1                                                                   
+  proxy2 = 1                                                                      |  (1,3) = (10,3)                                                                  
+  proxy3 = 1                                                                      |  2 = 4                                                                           
+  proxy4 = 1                                                                      |  4 = 10                                                                          
+                                                                                  |                                                                                  
+Instance: sky130_fd_pr__pfet_01v8:2                                               |Instance: sky130_fd_pr__pfet_01v8_LJPZDL_0/sky130_fd_pr__pfet_01v8:0              
+  (drain,source) = (10,3)                                                         |  proxydrain = 1                                                                  
+  gate = 4                                                                        |  proxygate = 1                                                                   
+  bulk = 10                                                                       |  proxysource = 1                                                                 
+  proxy1 = 1                                                                      |  proxybulk = 1                                                                   
+  proxy2 = 1                                                                      |  (1,3) = (10,4)                                                                  
+  proxy3 = 1                                                                      |  2 = 4                                                                           
+  proxy4 = 1                                                                      |  4 = 10                                                                          
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Instance: sky130_fd_pr__nfet_01v8:8                                               |Instance: sky130_fd_pr__nfet_01v8_FN4ZCM_0/sky130_fd_pr__nfet_01v8:0              
+  (drain,source) = (8,2)                                                          |  proxydrain = 1                                                                  
+  gate = 10                                                                       |  proxygate = 1                                                                   
+  bulk = 8                                                                        |  proxysource = 1                                                                 
+  proxy1 = 1                                                                      |  proxybulk = 1                                                                   
+  proxy2 = 1                                                                      |  (1,3) = (4,3)                                                                   
+  proxy3 = 1                                                                      |  2 = 1                                                                           
+  proxy4 = 1                                                                      |  4 = 8                                                                           
+                                                                                  |                                                                                  
+Instance: sky130_fd_pr__nfet_01v8:6                                               |Instance: sky130_fd_pr__nfet_01v8_AT4ZK9:XM8/sky130_fd_pr__nfet_01v8:0            
+  (drain,source) = (10,8)                                                         |  proxydrain = 1                                                                  
+  gate = 10                                                                       |  proxygate = 1                                                                   
+  bulk = 8                                                                        |  proxysource = 1                                                                 
+  proxy1 = 1                                                                      |  proxybulk = 1                                                                   
+  proxy2 = 1                                                                      |  (1,3) = (8,2)                                                                   
+  proxy3 = 1                                                                      |  2 = 10                                                                          
+  proxy4 = 1                                                                      |  4 = 8                                                                           
+                                                                                  |                                                                                  
+Instance: sky130_fd_pr__nfet_01v8:5                                               |Instance: sky130_fd_pr__nfet_01v8_4WPVHQ_0/sky130_fd_pr__nfet_01v8:0              
+  (drain,source) = (4,3)                                                          |  proxydrain = 1                                                                  
+  gate = 1                                                                        |  proxygate = 1                                                                   
+  bulk = 8                                                                        |  proxysource = 1                                                                 
+  proxy1 = 1                                                                      |  proxybulk = 1                                                                   
+  proxy2 = 1                                                                      |  (1,3) = (10,8)                                                                  
+  proxy3 = 1                                                                      |  2 = 10                                                                          
+  proxy4 = 1                                                                      |  4 = 8                                                                           
+                                                                                  |                                                                                  
+Instance: sky130_fd_pr__nfet_01v8:4                                               |Instance: sky130_fd_pr__nfet_01v8_FN4ZCM:XM4/sky130_fd_pr__nfet_01v8:0            
+  (drain,source) = (3,3)                                                          |  proxydrain = 1                                                                  
+  gate = 1                                                                        |  proxygate = 1                                                                   
+  bulk = 8                                                                        |  proxysource = 1                                                                 
+  proxy1 = 1                                                                      |  proxybulk = 1                                                                   
+  proxy2 = 1                                                                      |  (1,3) = (3,3)                                                                   
+  proxy3 = 1                                                                      |  2 = 1                                                                           
+  proxy4 = 1                                                                      |  4 = 8                                                                           
+                                                                                  |                                                                                  
+Instance: sky130_fd_pr__nfet_01v8:1                                               |Instance: sky130_fd_pr__nfet_01v8_4WPVHQ:XM1/sky130_fd_pr__nfet_01v8:0            
+  (drain,source) = (8,3)                                                          |  proxydrain = 1                                                                  
+  gate = 10                                                                       |  proxygate = 1                                                                   
+  bulk = 8                                                                        |  proxysource = 1                                                                 
+  proxy1 = 1                                                                      |  proxybulk = 1                                                                   
+  proxy2 = 1                                                                      |  (1,3) = (8,3)                                                                   
+  proxy3 = 1                                                                      |  2 = 10                                                                          
+  proxy4 = 1                                                                      |  4 = 8                                                                           
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Netlists do not match.
+
+Subcircuit pins:
+Circuit 1: Hw2amptry2                                                             |Circuit 2: Hw2amptry2                                                             
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+(no pins)                                                                         |diff_out **Mismatch**                                                             
+(no matching pin)                                                                 |in_p                                                                              
+(no matching pin)                                                                 |VDD                                                                               
+(no matching pin)                                                                 |in_n                                                                              
+(no matching pin)                                                                 |VSS                                                                               
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists for Hw2amptry2 and Hw2amptry2 altered to match.
+Device classes Hw2amptry2 and Hw2amptry2 are equivalent.
+
+Final result: Top level cell failed pin matching.
